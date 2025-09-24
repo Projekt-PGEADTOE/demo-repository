@@ -2,7 +2,7 @@
 
 ![Proof HTML](https://github.com/Projekt-PGEADTOE/demo-repository/actions/workflows/proof-html.yml/badge.svg)
 
-# PGEADTOE – Pedophile Gate
+# PGEADTOE
 
 **Vision:**  
 PGEADTOE ist ein Open-Source-Projekt, das Software-Tools entwickelt, um aktiv zur Sicherheit von Kindern im Internet beizutragen. Das Projekt kombiniert Funktionalitäten für Issue-Tracking, Workflows und Zusammenarbeit, mit dem Ziel, eine sichere Umgebung zu schaffen und die Kern-Community bei der Verwaltung und Beobachtung zu unterstützen.
@@ -66,4 +66,14 @@ Wir begrüßen neue Contributor!
 
 ## **Branch Protection & Guidelines**
 
-- Main-Branch ist g
+- Main-Branch ist geschützt → kein direktes Pushen  
+- Mindestens 1 Review erforderlich für Merge  
+- Status Checks müssen erfolgreich sein  
+
+---
+
+## **License**
+
+Dieses Projekt nutzt die [MIT License](LICENSE).
+
+
