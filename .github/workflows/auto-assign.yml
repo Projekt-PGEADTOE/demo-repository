@@ -18,5 +18,6 @@ jobs:
         repo-token: ${{ secrets.GITHUB_TOKEN }}
         # Zuweisung: Team + Fallback auf dich selbst
         assignees: |
+          team-maintainers
           WhileTrueBlackObelizk
         numOfAssignee: 1
