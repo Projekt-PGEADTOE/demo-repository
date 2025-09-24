@@ -4,8 +4,9 @@ on:
     types: [opened]
   pull_request:
     types: [opened]
+
 jobs:
-  run:
+  auto-assign:
     runs-on: ubuntu-latest
     permissions:
       issues: write
@@ -14,6 +15,9 @@ jobs:
     - name: 'Auto-assign issue'
       uses: pozil/auto-assign-issue@v1
       with:
-          repo-token: ${{ secrets.GITHUB_TOKEN }}
-          assignees: WhileTrueBlackObelizk
-          numOfAssignee: 1
+        repo-token: ${{ secrets.GITHUB_TOKEN }}
+        # Zuweisung: Team + Fallback auf dich selbst
+        assignees: |
+          team-maintainers
+          WhileTrueBlackObelizk
+        numOfAssignee: 1
