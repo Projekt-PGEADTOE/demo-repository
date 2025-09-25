@@ -1,0 +1,10 @@
+version: 2
+updates:
+  - package-ecosystem: "pip" # Python packages
+    directory: "/" # Root-Verzeichnis
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "github-actions" # GitHub Actions updates
+    directory: "/" 
+    schedule:
+      interval: "weekly"
